@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <title>Christophe Mathieu</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../css/stijlproject.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+</head>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="bootstrap" viewBox="0 0 118 94">
+            <title>Bootstrap</title>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z">
+            </path>
+        </symbol>
+        <symbol id="facebook" viewBox="0 0 16 16">
+            <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+        </symbol>
+        <symbol id="instagram" viewBox="0 0 16 16">
+            <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+        </symbol>
+        <symbol id="linkedin" viewBox="0 0 16 16">
+            <path
+                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+        </symbol>
+    </svg>
+    <a id="top"></a>
+    <div class="sticky-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Christophe Mathieu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample04">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="cv.html">CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ervaring.html">Ervaring</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="interesses.html">Intresses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+                    <form>
+                        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <h2 style="color: green;">Curriculum Vitae</h2>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Persoonlijke gegevens
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <table>
+                        <tr>
+                            <th>Naam:</th>
+                            <td>Christophe Mathieu</td>
+                        </tr>
+                        <tr>
+                            <th>Adres:</th>
+                            <td>Eggestraat 19, 2350 Vosselaar</td>
+                        </tr>
+                        <tr>
+                            <th>Telefoon:</th>
+                            <td>014/618151</td>
+                        </tr>
+                        <tr>
+                            <th>Mobiel:</th>
+                            <td>0476/791411</td>
+                        </tr>
+                        <tr>
+                            <th>E-mail:</th>
+                            <td>christophe.mathieu@hotmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>Geboortedatum:</th>
+                            <td>15-03-1998</td>
+                        </tr>
+                        <tr>
+                            <th>Nationaliteit:</th>
+                            <td>Belg</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Werkervaring
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li>01-2019 tot heden
+                            <ul>
+                                <li>Magazijnier bij Cloetta te Turnhout
+                                    <ul>
+                                        <li>Laden en lossen van vrachtwagens</li>
+                                        <li>Inpak voorzien van verpakkingsmateriaal</li>
+                                        <li>Coderen van facturen</li>
+                                        <li>Maken van transportplanning</li>
+                                        <li>Afroepen van goederen in extern magazijn</li>
+                                        <li>Key user logistics ERP-programma M3</li>
+                                        <li>Werken volgens de Lean methode</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>07-2017 tot 09-2018
+                            <ul>
+                                <li>Jobstudent magazijnier bij Cloetta te Turnhout
+                                    <ul>
+                                        <li>Laden en lossen van vrachtwagens</li>
+                                        <li>Wagenrijden (snoep naar inpaklijnen, afgewerkt product naar magazijn</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>06-2015 tot 04-2017
+                            <ul>
+                                <li>Jobstudent laborant bij Glacio Ice Cream Specialities te Beerse
+                                    <ul>
+                                        <li>Mixen van testen op kleur, smaak, vetten, droge stof,...</li>
+                                        <li>Kwaliteitscontrole in productie</li>
+                                        <li>Microbiologische analyses</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>06-2014 tot 08-2016
+                            <ul>
+                                <li>Jobstudent productiemedewerker bij Glacio Ice Cream Specialities te Beerse
+                                    <ul>
+                                        <li>Kwaliteitscontrole</li>
+                                        <li>Inpakken</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Persoonsgebonden competenties
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li>Bereid om te leren</li>
+                        <li>Plannen en organiseren</li>
+                        <li>Resultaatgericht werken</li>
+                        <li>Samenwerken</li>
+                        <li>Zelfstandig werken</li>
+                        <li>Verantwoordelijkheid</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Opleidingen
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li>2010 - 2015:
+                            <ul>
+                                <li>Handel-ICT, Stedelijke Handelsschool Turnhout</li>
+                            </ul>
+                        </li>
+                        <li>2015 - 2016:
+                            <ul>
+                                <li>Kantoor, Stedelijke Handelsschool Turnhout</li>
+                            </ul>
+                        </li>
+                        <li>2016 - 2017:
+                            <ul>
+                                <li>Logistiek, Stedelijke Handelsschool Turnhout</li>
+                            </ul>
+                        </li>
+                        <li>2017 - 2018:
+                            <ul>
+                                <li>Informatica HBO5, CVO HIK Geel</li>
+                            </ul>
+                        </li>
+                        <li>2021 - ...:
+                            <ul>
+                                <li>Graduaat programmeren, Thomas More Geel</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Cursussen
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <table>
+                        <tr>
+                            <th>Jaar</th>
+                            <th>Cursus</th>
+                            <th>Locatie</th>
+                        </tr>
+                        <tr>
+                            <td>2016</td>
+                            <td>Attest hef- en reachtruck</td>
+                            <td>NOA Trainings Turnhout</td>
+                        </tr>
+                        <tr>
+                            <td>2021</td>
+                            <td>Elektriciteit 1</td>
+                            <td>CVO EduKempen Turnhout</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Talen
+                </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <table>
+                        <tr>
+                            <th>Taal</th>
+                            <th>Kennis</th>
+                        </tr>
+                        <tr>
+                            <td>Nederlands</td>
+                            <td>Moedertaal</td>
+                        </tr>
+                        <tr>
+                            <td>Engels</td>
+                            <td>Goede beheersing</td>
+                        </tr>
+                        <tr>
+                            <td>Frans</td>
+                            <td>Redelijke beheersing</td>
+                        </tr>
+                        <tr>
+                            <td>Duits</td>
+                            <td>Basiskennis</td>
+                        </tr>
+
+                        <tr>
+                            <td>Italiaans</td>
+                            <td>Basiskennis</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                Skills
+            </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <div class="container text-center my-3">
+                    <div class="row mx-auto my-auto justify-content-center">
+                        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img">
+                                                <img src="../images/bootstrap.png" alt="bootstrap" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img">
+                                                <img src="../images/csharp.png" alt="csharp" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img">
+                                                <img src="../images/css.png" alt="css" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img">
+                                                <img src="../images/html.png" alt="html" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img">
+                                                <img src="../images/webdesign.jpg" alt="webdesign" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img">
+                                                <img src="../images/windows.png" alt="windows" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img">
+                                                <img src="../images/sql.png" alt="sql" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img">
+                                                <img src="../images/gigabyte.jpg" alt="gigabyte" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img">
+                                                <img src="../images/hardware.jpg" alt="hardware" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-img">
+                                                <img src="../images/iphone.jpg" alt="iphone" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/carousel.js"></script>
+</body>
+
+</html>
